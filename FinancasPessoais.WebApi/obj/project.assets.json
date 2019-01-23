@@ -4746,6 +4746,16 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "FinancasPessoais.Infrastructure.DI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FinancasPessoais.Infrastructure.DI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancasPessoais.Infrastructure.DI.dll": {}
+        }
       }
     }
   },
@@ -12654,10 +12664,16 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "FinancasPessoais.Infrastructure.DI/1.0.0": {
+      "type": "project",
+      "path": "../FinancasPessoais.Infrastructure.DI/FinancasPessoais.Infrastructure.DI.csproj",
+      "msbuildProject": "../FinancasPessoais.Infrastructure.DI/FinancasPessoais.Infrastructure.DI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "FinancasPessoais.Infrastructure.DI >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.9",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12691,7 +12707,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ander\\Documents\\Coding\\FinancasPessoais\\FinancasPessoais.Infrastructure.DI\\FinancasPessoais.Infrastructure.DI.csproj": {
+              "projectPath": "C:\\Users\\ander\\Documents\\Coding\\FinancasPessoais\\FinancasPessoais.Infrastructure.DI\\FinancasPessoais.Infrastructure.DI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
