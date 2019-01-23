@@ -4,7 +4,15 @@ using System.Text;
 
 namespace FinancasPessoais.Main.Domain.Entities
 {
-    class Conta
+    public class Conta
     {
+        public int Id { get; set; }
+        public int ContaTipoId { get; set; }
+        public string Descricao { get; set; }
+        public decimal Saldo { get; set; }
+        public int UsuarioId { get; set; }
+        public int EnderecoId { get; set; }
+        public int Agencia { get; set; }
+        public int NumeroConta { get; set; }
     }
 }

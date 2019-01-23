@@ -1,0 +1,6 @@
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Infrastructure.DatabaseHelper\bin\Debug\netcoreapp2.0\FinancasPessoais.Infrastructure.DatabaseHelper.deps.json
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Infrastructure.DatabaseHelper\bin\Debug\netcoreapp2.0\FinancasPessoais.Infrastructure.DatabaseHelper.dll
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Infrastructure.DatabaseHelper\obj\Debug\netcoreapp2.0\FinancasPessoais.Infrastructure.DatabaseHelper.csprojAssemblyReference.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Infrastructure.DatabaseHelper\obj\Debug\netcoreapp2.0\FinancasPessoais.Infrastructure.DatabaseHelper.csproj.CoreCompileInputs.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Infrastructure.DatabaseHelper\obj\Debug\netcoreapp2.0\FinancasPessoais.Infrastructure.DatabaseHelper.AssemblyInfoInputs.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Infrastructure.DatabaseHelper\obj\Debug\netcoreapp2.0\FinancasPessoais.Infrastructure.DatabaseHelper.AssemblyInfo.cs

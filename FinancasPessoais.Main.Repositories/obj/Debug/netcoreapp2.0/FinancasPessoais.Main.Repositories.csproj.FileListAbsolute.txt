@@ -1,0 +1,6 @@
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Main.Repositories\bin\Debug\netcoreapp2.0\FinancasPessoais.Main.Repositories.deps.json
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Main.Repositories\bin\Debug\netcoreapp2.0\FinancasPessoais.Main.Repositories.dll
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Main.Repositories\obj\Debug\netcoreapp2.0\FinancasPessoais.Main.Repositories.csprojAssemblyReference.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Main.Repositories\obj\Debug\netcoreapp2.0\FinancasPessoais.Main.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Main.Repositories\obj\Debug\netcoreapp2.0\FinancasPessoais.Main.Repositories.AssemblyInfoInputs.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Main.Repositories\obj\Debug\netcoreapp2.0\FinancasPessoais.Main.Repositories.AssemblyInfo.cs

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace FinancasPessoais.Main.Domain.Entities
 {
-    public class FormaPagamento
+    public class Email
     {
         public int Id { get; set; }
-        public string Descricao { get; set; }
+        public string EnderecoEmail { get; set; }
     }
 }

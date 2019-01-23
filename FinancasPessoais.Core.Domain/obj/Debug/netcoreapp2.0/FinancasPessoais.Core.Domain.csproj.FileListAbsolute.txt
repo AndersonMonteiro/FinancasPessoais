@@ -1,0 +1,9 @@
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\bin\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.deps.json
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\bin\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.dll
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\bin\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.pdb
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\obj\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.csprojAssemblyReference.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\obj\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\obj\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\obj\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.AssemblyInfo.cs
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\obj\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.dll
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.Core.Domain\obj\Debug\netcoreapp2.0\FinancasPessoais.Core.Domain.pdb

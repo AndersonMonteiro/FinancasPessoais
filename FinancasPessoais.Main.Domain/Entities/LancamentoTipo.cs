@@ -4,7 +4,9 @@ using System.Text;
 
 namespace FinancasPessoais.Main.Domain.Entities
 {
-    class LancamentoTipo
+    public class LancamentoTipo
     {
+        public int Id { get; set; }
+        public string Descricao { get; set; }
     }
 }
