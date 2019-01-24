@@ -240,6 +240,55 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "FinancasPessoais.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FinancasPessoais.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancasPessoais.Core.Domain.dll": {}
+        }
+      },
+      "FinancasPessoais.Infrastructure.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "FinancasPessoais.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinancasPessoais.Infrastructure.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancasPessoais.Infrastructure.CrossCutting.dll": {}
+        }
+      },
+      "FinancasPessoais.Infrastructure.DatabaseHelper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Npgsql": "4.0.4"
+        },
+        "compile": {
+          "bin/placeholder/FinancasPessoais.Infrastructure.DatabaseHelper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancasPessoais.Infrastructure.DatabaseHelper.dll": {}
+        }
+      },
+      "FinancasPessoais.Main.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "FinancasPessoais.Infrastructure.CrossCutting": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinancasPessoais.Main.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancasPessoais.Main.Domain.dll": {}
+        }
       }
     }
   },
@@ -826,10 +875,32 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "FinancasPessoais.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FinancasPessoais.Core.Domain/FinancasPessoais.Core.Domain.csproj",
+      "msbuildProject": "../FinancasPessoais.Core.Domain/FinancasPessoais.Core.Domain.csproj"
+    },
+    "FinancasPessoais.Infrastructure.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../FinancasPessoais.Infrastructure.CrossCutting/FinancasPessoais.Infrastructure.CrossCutting.csproj",
+      "msbuildProject": "../FinancasPessoais.Infrastructure.CrossCutting/FinancasPessoais.Infrastructure.CrossCutting.csproj"
+    },
+    "FinancasPessoais.Infrastructure.DatabaseHelper/1.0.0": {
+      "type": "project",
+      "path": "../FinancasPessoais.Infrastructure.DatabaseHelper/FinancasPessoais.Infrastructure.DatabaseHelper.csproj",
+      "msbuildProject": "../FinancasPessoais.Infrastructure.DatabaseHelper/FinancasPessoais.Infrastructure.DatabaseHelper.csproj"
+    },
+    "FinancasPessoais.Main.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FinancasPessoais.Main.Domain/FinancasPessoais.Main.Domain.csproj",
+      "msbuildProject": "../FinancasPessoais.Main.Domain/FinancasPessoais.Main.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "FinancasPessoais.Infrastructure.DatabaseHelper >= 1.0.0",
+      "FinancasPessoais.Main.Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Npgsql >= 4.0.4"
     ]
@@ -863,7 +934,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ander\\Documents\\Coding\\FinancasPessoais\\FinancasPessoais.Infrastructure.DatabaseHelper\\FinancasPessoais.Infrastructure.DatabaseHelper.csproj": {
+              "projectPath": "C:\\Users\\ander\\Documents\\Coding\\FinancasPessoais\\FinancasPessoais.Infrastructure.DatabaseHelper\\FinancasPessoais.Infrastructure.DatabaseHelper.csproj"
+            },
+            "C:\\Users\\ander\\Documents\\Coding\\FinancasPessoais\\FinancasPessoais.Main.Domain\\FinancasPessoais.Main.Domain.csproj": {
+              "projectPath": "C:\\Users\\ander\\Documents\\Coding\\FinancasPessoais\\FinancasPessoais.Main.Domain\\FinancasPessoais.Main.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

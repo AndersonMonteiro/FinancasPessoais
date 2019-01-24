@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "FinancasPessoais.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FinancasPessoais.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancasPessoais.Core.Domain.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "FinancasPessoais.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FinancasPessoais.Core.Domain/FinancasPessoais.Core.Domain.csproj",
+      "msbuildProject": "../FinancasPessoais.Core.Domain/FinancasPessoais.Core.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "FinancasPessoais.Core.Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -692,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ander\\Documents\\Coding\\FinancasPessoais\\FinancasPessoais.Core.Domain\\FinancasPessoais.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\ander\\Documents\\Coding\\FinancasPessoais\\FinancasPessoais.Core.Domain\\FinancasPessoais.Core.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

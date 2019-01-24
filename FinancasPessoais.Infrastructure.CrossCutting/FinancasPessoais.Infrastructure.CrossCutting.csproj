@@ -6,7 +6,10 @@
 
   <ItemGroup>
     <Folder Include="Exceptions\" />
-    <Folder Include="Response\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinancasPessoais.Core.Domain\FinancasPessoais.Core.Domain.csproj" />
   </ItemGroup>
 
 </Project>
