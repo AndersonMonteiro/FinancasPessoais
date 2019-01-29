@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace FinancasPessoais.Main.Repositories
 {
-    public class LancamentoRepository : ILancamentoRepository
+    public class TransacaoRepository : ITransacaoRepository
     {
         protected readonly IPostgreSqlConnectionFactory postgreSqlConnectionFactory;
 
-        public LancamentoRepository(IPostgreSqlConnectionFactory postgreSqlConnectionFactory)
+        public TransacaoRepository(IPostgreSqlConnectionFactory postgreSqlConnectionFactory)
         {
             this.postgreSqlConnectionFactory = postgreSqlConnectionFactory;
         }
 
-        public Task InsertAsync(Lancamento lancamento)
+        public Task InsertAsync(Transacao transacao)
         {
             using ( var conn = postgreSqlConnectionFactory.CreateConnection(ConnectionName.FINANCAS))
             {
@@ -24,7 +24,7 @@ namespace FinancasPessoais.Main.Repositories
             }
         }
 
-        public Task<IEnumerable<Lancamento>> SearchAllAsync()
+        public Task<IEnumerable<Transacao>> SearchAllAsync()
         {
             using (var conn = postgreSqlConnectionFactory.CreateConnection(ConnectionName.FINANCAS))
             {
@@ -32,7 +32,7 @@ namespace FinancasPessoais.Main.Repositories
             }
         }
 
-        public Task<Lancamento> SearchByIdAsync(int id)
+        public Task<Transacao> SearchByIdAsync(int id)
         {
             using (var conn = postgreSqlConnectionFactory.CreateConnection(ConnectionName.FINANCAS))
             {
@@ -40,7 +40,7 @@ namespace FinancasPessoais.Main.Repositories
             }
         }
 
-        public Task UpdateAsync(Lancamento lancamento)
+        public Task UpdateAsync(Transacao transacao)
         {
             using (var conn = postgreSqlConnectionFactory.CreateConnection(ConnectionName.FINANCAS))
             {

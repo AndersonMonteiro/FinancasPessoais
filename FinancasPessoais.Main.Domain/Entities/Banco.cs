@@ -4,9 +4,10 @@ using System.Text;
 
 namespace FinancasPessoais.Main.Domain.Entities
 {
-    public class LancamentoStatus
+    public class Banco
     {
         public int Id { get; set; }
-        public string Descricao { get; set; }
+        public int Codigo { get; set; }
+        public string Nome { get; set; }
     }
 }

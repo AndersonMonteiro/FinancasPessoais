@@ -9,31 +9,31 @@ using System.Threading.Tasks;
 
 namespace FinancasPessoais.Main.Services
 {
-    public class LancamentoService : ILancamentoService
+    public class TransacaoService : ITransacaoService
     {
-        protected readonly ILancamentoRepository lancamentoRepository;
+        protected readonly ITransacaoRepository TransacaoRepository;
 
-        public LancamentoService(ILancamentoRepository lancamentoRepository)
+        public TransacaoService(ITransacaoRepository TransacaoRepository)
         {
-            this.lancamentoRepository = lancamentoRepository;
+            this.TransacaoRepository = TransacaoRepository;
         }
 
-        public Task<Response> InsertAsync(Lancamento lancamento)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Response<IEnumerable<Lancamento>>> SearchAllAsync()
+        public Task<Response> InsertAsync(Transacao transacao)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Response<Lancamento>> SearchByIdAsync(int id)
+        public Task<Response<IEnumerable<Transacao>>> SearchAllAsync()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Response> UpdateAsync(Lancamento lancamento)
+        public Task<Response<Transacao>> SearchByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Response> UpdateAsync(Transacao transacao)
         {
             throw new NotImplementedException();
         }

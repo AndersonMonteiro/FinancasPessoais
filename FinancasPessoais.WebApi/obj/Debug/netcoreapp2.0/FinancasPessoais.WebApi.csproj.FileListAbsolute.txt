@@ -1,0 +1,14 @@
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\bin\Debug\netcoreapp2.0\FinancasPessoais.WebApi.deps.json
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\bin\Debug\netcoreapp2.0\FinancasPessoais.WebApi.runtimeconfig.json
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\bin\Debug\netcoreapp2.0\FinancasPessoais.WebApi.runtimeconfig.dev.json
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\bin\Debug\netcoreapp2.0\FinancasPessoais.WebApi.dll
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\bin\Debug\netcoreapp2.0\FinancasPessoais.WebApi.pdb
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\bin\Debug\netcoreapp2.0\FinancasPessoais.Infrastructure.DI.dll
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\bin\Debug\netcoreapp2.0\FinancasPessoais.Infrastructure.DI.pdb
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\obj\Debug\netcoreapp2.0\FinancasPessoais.WebApi.csprojAssemblyReference.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\obj\Debug\netcoreapp2.0\FinancasPessoais.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\obj\Debug\netcoreapp2.0\FinancasPessoais.WebApi.AssemblyInfoInputs.cache
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\obj\Debug\netcoreapp2.0\FinancasPessoais.WebApi.AssemblyInfo.cs
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\obj\Debug\netcoreapp2.0\FinancasPessoais.WebApi.csproj.CopyComplete
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\obj\Debug\netcoreapp2.0\FinancasPessoais.WebApi.dll
+C:\Users\ander\Documents\Coding\FinancasPessoais\FinancasPessoais.WebApi\obj\Debug\netcoreapp2.0\FinancasPessoais.WebApi.pdb

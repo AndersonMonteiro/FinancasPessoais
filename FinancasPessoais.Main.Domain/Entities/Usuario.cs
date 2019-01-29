@@ -14,5 +14,6 @@ namespace FinancasPessoais.Main.Domain.Entities
         public string CPF { get; set; }
         public DateTime DataCadastro { get; set; }
         public DateTime DataAtualizacao { get; set; }
+        public Boolean Inativo { get; set; }
     }
 }
